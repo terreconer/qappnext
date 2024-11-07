@@ -1,0 +1,26 @@
+{
+  "name": "qappnext",
+  "version": "1.0.0",
+  "description": "qapp next",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "concurrently \"npm run dev:client\" \"npm run dev:server\"",
+    "dev:client": "npm --prefix client run dev",
+    "dev:server": "npm --prefix server run dev"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/terreconer/qappnext.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/terreconer/qappnext/issues"
+  },
+  "homepage": "https://github.com/terreconer/qappnext#readme",
+  "devDependencies": {
+    "concurrently": "^9.1.0"
+  }
+}
