@@ -1,5 +1,5 @@
 import React from 'react';
-import ProfilePage from '@/containers/LoginPage';
+import ProfilePage from '@/containers/ProfilePage';
 
 const Profile: React.FC = () => {
   return (
